@@ -1,0 +1,15 @@
+{
+  "files": [
+    "**/*.d.ts",
+    "**/*.js"
+  ],
+  "license": "UNLICENSED",
+  "main": "index.js",
+  "name": "@es50678/quotex-core-common",
+  "packageManager": "yarn@3.1.1",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "lodash": "^4.17.21",
+    "ts-japi": "^1.6.1"
+  }
+}

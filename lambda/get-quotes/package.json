@@ -1,0 +1,14 @@
+{
+  "files": [
+    "**/*.d.ts",
+    "**/*.js"
+  ],
+  "license": "UNLICENSED",
+  "main": "index.js",
+  "name": "@es50678/quotex-lambda-get-quotes",
+  "packageManager": "yarn@3.1.1",
+  "dependencies": {
+    "aws-cdk-lib": "^2.3.0",
+    "constructs": "^10.0.20"
+  }
+}

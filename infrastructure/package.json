@@ -1,0 +1,26 @@
+{
+  "name": "@es50678/quotex-infrastructure",
+  "version": "0.1.0",
+  "bin": {
+    "infrastructure": "bin/infrastructure.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.4.0",
+    "aws-cdk": "2.3.0",
+    "jest": "^27.4.5",
+    "ts-jest": "^27.1.2",
+    "ts-node": "^10.4.0"
+  },
+  "dependencies": {
+    "@es50678/quotex-lambda-get-quotes": "workspace:*",
+    "aws-cdk-lib": "2.3.0",
+    "constructs": "^10.0.20",
+    "source-map-support": "^0.5.21"
+  }
+}
