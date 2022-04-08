@@ -468,6 +468,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@es50678/create-quotes@workspace:lambda/create-quotes":
+  version: 0.0.0-use.local
+  resolution: "@es50678/create-quotes@workspace:lambda/create-quotes"
+  dependencies:
+    "@goatintheshell/test-npm": 1.0.2
+    lodash: ^4.17.21
+  languageName: unknown
+  linkType: soft
+
 "@es50678/quotex-core-common@workspace:core/common":
   version: 0.0.0-use.local
   resolution: "@es50678/quotex-core-common@workspace:core/common"
@@ -541,6 +550,13 @@ __metadata:
   version: 1.1.2
   resolution: "@gar/promisify@npm:1.1.2"
   checksum: d05081e0887a49c178b75ee3067bd6ee086f73c154d121b854fb2e044e8a89cb1cbb6de3a0dd93a519b80f0531fda68b099dd7256205f7fbb3490324342f2217
+  languageName: node
+  linkType: hard
+
+"@goatintheshell/test-npm@npm:1.0.2":
+  version: 1.0.2
+  resolution: "@goatintheshell/test-npm@npm:1.0.2::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40goatintheshell%2Ftest-npm%2F1.0.2%2Fcd9598c5e9eac294844b28272345e9d0aafb5c831db6f1063c8041756f891119"
+  checksum: edcc7c2452ca49843c268564fb1b2b332d9ed0825f587352c8a363c15f66a27ed18c3f73ed4297abfa8d00a7add972d21ae30a2eb6a364ba9cb0cd7c0182fa09
   languageName: node
   linkType: hard
 
